@@ -1,3 +1,44 @@
+# Decentralized finance with Ethereum, Truffle, Web3.js and more!
+
+A decentralized finance (DeFi) app developed using Solidity programming language, Truffle framework, Web3.js and frontend developed using ReactJS.
+
+This app simulates a blockchain-based bank where the user can deposit funds and whenever the user does so, they earn interest on them. 
+The user can also borrow funds with collateral and pay-off later. 
+
+## Installation and Setup
+
+* Download and install [NodeJS](https://nodejs.org/en/download/)
+
+* Install [Truffle](https://www.trufflesuite.com/docs/truffle/getting-started/installation) Framework. Due to some discrepancies in the later versions, it is highly advised to install Truffle version 5.1.39
+```bash
+npm install --global truffle@5.1.39
+```
+
+* Download [Ganache](https://www.trufflesuite.com/ganache) personal blockchain.
+
+* Install the [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) chrome extension.
+
+### Connecting MetaMask to Ganache
+
+* Open the MetaMask extension. Click the dropdown for choosing different networks. Select custom RPC option
+
+![metamask1](https://user-images.githubusercontent.com/54990929/120642203-3a75cc80-c492-11eb-959a-8a1bc28f3ad0.png)
+
+*  Fill the following fields: Network name (anything of your choice), New RPC URL and Chain ID can be found in Ganache
+
+![metamask_new_conn](https://user-images.githubusercontent.com/54990929/120642779-f0d9b180-c492-11eb-9d37-0975bd32181c.png)
+
+* Select Ganache network and select import account option. Select type private key.
+
+![Screenshot 2021-06-03 135208](https://user-images.githubusercontent.com/54990929/120646404-2385a900-c497-11eb-92e7-572861e112af.png)
+
+*  Private key of an account can be found in Ganache. Choose any account and click on key icon. Copy the private key and import the account.
+
+## Run the app using npm run start command 
+```bash
+npm run start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
